@@ -1,0 +1,66 @@
+16:26:38.054 [main] INFO  testCase.TC003_LoginDDT - clicked on login button
+16:26:50.572 [main] INFO  testCase.TC003_LoginDDT - *****Starting TC001_AccountRegistrationTest*****
+16:26:50.761 [main] INFO  testCase.TC003_LoginDDT - clicked on My account
+16:26:51.245 [main] INFO  testCase.TC003_LoginDDT - clicked on login button
+16:26:53.726 [main] INFO  testCase.TC003_LoginDDT - *****Starting TC001_AccountRegistrationTest*****
+16:26:53.880 [main] INFO  testCase.TC003_LoginDDT - clicked on My account
+16:26:54.245 [main] INFO  testCase.TC003_LoginDDT - clicked on login button
+16:27:05.989 [main] INFO  testCase.TC003_LoginDDT - *****Starting TC001_AccountRegistrationTest*****
+16:27:06.133 [main] INFO  testCase.TC003_LoginDDT - clicked on My account
+16:27:06.508 [main] INFO  testCase.TC003_LoginDDT - clicked on login button
+16:32:56.417 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\java Selenium\OpenCart_Automation\test-output\testng-failed.xml
+
+16:33:03.447 [main] INFO  testCase.TC003_LoginDDT - *****Starting TC001_AccountRegistrationTest*****
+16:33:03.580 [main] INFO  testCase.TC003_LoginDDT - clicked on My account
+16:33:03.984 [main] INFO  testCase.TC003_LoginDDT - clicked on login button
+19:49:41.815 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\java Selenium\OpenCart_Automation\master.xml
+
+19:49:46.085 [main] INFO  testCase.TC001_AccountRegistrationTest - *****Starting TC001_AccountRegistrationTest*****
+19:49:46.320 [main] INFO  testCase.TC001_AccountRegistrationTest - clicked on My Account
+19:49:46.969 [main] INFO  testCase.TC001_AccountRegistrationTest - clicked on Registration
+19:49:46.973 [main] INFO  testCase.TC001_AccountRegistrationTest - Providing Details to Register
+19:49:50.188 [main] INFO  testCase.TC001_AccountRegistrationTest - Registration Success
+19:51:48.311 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\java Selenium\OpenCart_Automation\master.xml
+
+19:53:09.753 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\java Selenium\OpenCart_Automation\master.xml
+
+19:55:39.085 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\java Selenium\OpenCart_Automation\master.xml
+
+19:55:43.639 [main] INFO  testCase.TC001_AccountRegistrationTest - *****Starting TC001_AccountRegistrationTest*****
+19:55:43.908 [main] INFO  testCase.TC001_AccountRegistrationTest - clicked on My Account
+19:55:44.587 [main] INFO  testCase.TC001_AccountRegistrationTest - clicked on Registration
+19:55:44.591 [main] INFO  testCase.TC001_AccountRegistrationTest - Providing Details to Register
+19:55:47.698 [main] INFO  testCase.TC001_AccountRegistrationTest - Registration Success
+19:56:42.018 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\java Selenium\OpenCart_Automation\master.xml
+
+19:56:45.912 [main] INFO  testCase.TC001_AccountRegistrationTest - *****Starting TC001_AccountRegistrationTest*****
+19:56:46.118 [main] INFO  testCase.TC001_AccountRegistrationTest - clicked on My Account
+19:56:46.790 [main] INFO  testCase.TC001_AccountRegistrationTest - clicked on Registration
+19:56:46.795 [main] INFO  testCase.TC001_AccountRegistrationTest - Providing Details to Register
+19:56:52.392 [main] INFO  testCase.TC001_AccountRegistrationTest - Registration Success
+19:59:56.309 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\java Selenium\OpenCart_Automation\crossbrowsertesting.xml
+
+20:01:45.456 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\java Selenium\OpenCart_Automation\crossbrowsertesting.xml
+
+20:01:50.503 [TestNG-tests-1] INFO  testCase.TC001_AccountRegistrationTest - *****Starting TC001_AccountRegistrationTest*****
+20:01:50.909 [TestNG-tests-1] INFO  testCase.TC001_AccountRegistrationTest - clicked on My Account
+20:01:51.538 [TestNG-tests-1] INFO  testCase.TC001_AccountRegistrationTest - clicked on Registration
+20:01:51.541 [TestNG-tests-1] INFO  testCase.TC001_AccountRegistrationTest - Providing Details to Register
+20:01:54.180 [TestNG-tests-1] INFO  testCase.TC001_AccountRegistrationTest - Registration Success
+22:20:26.802 [main] INFO  testCase.TC001_AccountRegistrationTest - *****Starting TC001_AccountRegistrationTest*****
+22:20:27.017 [main] INFO  testCase.TC001_AccountRegistrationTest - clicked on My Account
+22:20:27.798 [main] INFO  testCase.TC001_AccountRegistrationTest - clicked on Registration
+22:20:27.804 [main] INFO  testCase.TC001_AccountRegistrationTest - Providing Details to Register
+22:20:31.636 [main] INFO  testCase.TC001_AccountRegistrationTest - Registration Success
+22:21:31.243 [main] INFO  testCase.TC001_AccountRegistrationTest - *****Starting TC001_AccountRegistrationTest*****
+22:21:31.581 [main] INFO  testCase.TC001_AccountRegistrationTest - clicked on My Account
+22:21:32.330 [main] INFO  testCase.TC001_AccountRegistrationTest - clicked on Registration
+22:21:32.336 [main] INFO  testCase.TC001_AccountRegistrationTest - Providing Details to Register

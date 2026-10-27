@@ -1,0 +1,11 @@
+22:21:34.679 [main] INFO  testCase.TC001_AccountRegistrationTest - Registration Success
+23:00:43.270 [main] INFO  testCase.TC001_AccountRegistrationTest - *****Starting TC001_AccountRegistrationTest*****
+23:00:43.710 [main] INFO  testCase.TC001_AccountRegistrationTest - clicked on My Account
+23:00:44.449 [main] INFO  testCase.TC001_AccountRegistrationTest - clicked on Registration
+23:00:44.454 [main] INFO  testCase.TC001_AccountRegistrationTest - Providing Details to Register
+23:00:47.853 [main] INFO  testCase.TC001_AccountRegistrationTest - Registration Success
+23:09:00.274 [main] INFO  testCase.TC001_AccountRegistrationTest - *****Starting TC001_AccountRegistrationTest*****
+23:09:00.692 [main] INFO  testCase.TC001_AccountRegistrationTest - clicked on My Account
+23:09:01.469 [main] INFO  testCase.TC001_AccountRegistrationTest - clicked on Registration
+23:09:01.472 [main] INFO  testCase.TC001_AccountRegistrationTest - Providing Details to Register
+23:09:06.135 [main] INFO  testCase.TC001_AccountRegistrationTest - Registration Success
