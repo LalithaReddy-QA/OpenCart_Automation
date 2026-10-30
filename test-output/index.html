@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-master_Suite" class="navigator-link ">
-                    <span>0 groups</span>
+                    <span>2 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -103,7 +103,7 @@
                     <div class="method-list-content passed suite-master_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-master_Suite" title="testCase.TC001_Search" class="method navigator-link" hash-for-method="Verify_Search">Verify_Search</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-master_Suite" title="testCase.TC005_ForgotPassword" class="method navigator-link" hash-for-method="verify_forgotpassword">verify_forgotpassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-master_Suite -->
@@ -121,14 +121,14 @@
           <div class="suite-master_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCase.TC001_Search</span>
+              <span class="class-name">testCase.TC005_ForgotPassword</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Verify_Search">
-                  </a> <!-- Verify_Search -->
-                  <span class="method-name">Verify_Search</span>
+                  <a name="verify_forgotpassword">
+                  </a> <!-- verify_forgotpassword -->
+                  <span class="method-name">verify_forgotpassword</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -150,7 +150,7 @@
     &lt;parameter name=&quot;os&quot; value=&quot;Window&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCase.TC001_Search&quot;/&gt;
+      &lt;class name=&quot;testCase.TC005_ForgotPassword&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- master Suite --&gt;
@@ -174,6 +174,22 @@
             <span class="header-content">Groups for master Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Master</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_forgotpassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_forgotpassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-master_Suite" class="panel">
@@ -192,14 +208,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Verify_Search')
-data.setCell(0, 2, 'testCase.TC001_Search')
-data.setCell(0, 3, 4484);
+data.setCell(0, 1, 'verify_forgotpassword')
+data.setCell(0, 2, 'testCase.TC005_ForgotPassword')
+data.setCell(0, 3, 3875);
 window.suiteTableData['master_Suite']= { tableData: data, tableDiv: 'times-div-master_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-master_Suite">
               </div> <!-- times-div-master_Suite -->
             </div> <!-- times-div -->
@@ -225,18 +241,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCase.TC001_Search</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCase.TC005_ForgotPassword</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Window, chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">Verify_Search</span>
-                <span class="method-start">6129 ms</span>
+                <span class="method-name">verify_forgotpassword</span>
+                <span class="method-start">6432 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">10638 ms</span>
+                <span class="method-start">10354 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

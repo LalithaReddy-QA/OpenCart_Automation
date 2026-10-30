@@ -9,9 +9,9 @@ import pageObjects.LoginPage;
 import pageObjects.SearchPage;
 import testBase.BaseClass;
 
-public class TC001_Search extends BaseClass {
+public class TC004_Search extends BaseClass {
 	
-	@Test()
+	@Test(groups ={"sanity", "Master"})
 	public void Verify_Search() {
 	try
 	{
@@ -47,7 +47,7 @@ public class TC001_Search extends BaseClass {
         }
         else
         {
-        	logger.info("Products are available for the search criteria.");
+        logger.info("Products are available for the search criteria.");
         }
         }
 	catch(Exception e)
