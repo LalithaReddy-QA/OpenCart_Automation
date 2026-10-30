@@ -1,0 +1,11 @@
+23:46:03.937 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5b6813df: 24 ms
+23:46:03.953 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@60b71e8f: 1 ms
+23:46:51.294 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\java Selenium\OpenCart_Automation\master.xml
+
+23:46:58.003 [main] INFO  testCase.TC001_Search - ****Started TC002_LoginTest****
+23:46:58.956 [main] INFO  testCase.TC001_Search - Login Page displayed
+23:47:01.565 [main] INFO  testCase.TC001_Search - Login Sucessfull
+23:47:01.653 [main] INFO  testCase.TC001_Search - Login Successful and My Account is displayed
+23:47:01.803 [main] INFO  testCase.TC001_Search - Entering product name...
+23:47:02.314 [main] INFO  testCase.TC001_Search - No products available for the search criteria.

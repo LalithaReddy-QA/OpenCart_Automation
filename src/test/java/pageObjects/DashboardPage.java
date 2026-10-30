@@ -36,4 +36,5 @@ public class DashboardPage extends BasePage{
 	{
 		lnklogout.click();
 	}
+	
 }
