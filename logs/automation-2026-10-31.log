@@ -1,0 +1,59 @@
+23:27:55.322 [main] INFO  testCase.TC001_AccountRegistrationTest - *****Starting TC001_AccountRegistrationTest*****
+23:27:55.676 [main] INFO  testCase.TC001_AccountRegistrationTest - clicked on My Account
+23:27:59.109 [main] INFO  testCase.TC001_AccountRegistrationTest - clicked on Registration
+23:27:59.116 [main] INFO  testCase.TC001_AccountRegistrationTest - Registration page opened..
+23:28:01.966 [main] INFO  testCase.TC001_AccountRegistrationTest - Provided Details to Register..
+23:28:02.042 [main] INFO  testCase.TC001_AccountRegistrationTest - Account created..
+23:28:02.042 [main] INFO  testCase.TC001_AccountRegistrationTest - ****Finished TC001_AccountRegistrationTest****
+23:28:08.221 [main] INFO  testCase.TC002_LoginTest - ****Started TC002_LoginTest****
+23:28:08.470 [main] INFO  testCase.TC002_LoginTest - clicked on My Account
+23:28:08.952 [main] INFO  testCase.TC002_LoginTest - clicked on login
+23:28:08.960 [main] INFO  testCase.TC002_LoginTest - login page opened
+23:28:09.731 [main] INFO  testCase.TC002_LoginTest - Login Sucessfull
+23:28:09.742 [main] INFO  testCase.TC002_LoginTest - Dashboard opened
+23:28:11.031 [main] INFO  testCase.TC002_LoginTest - Login Successful and My Account is displayed
+23:28:11.031 [main] INFO  testCase.TC002_LoginTest - ****Finished TC002_LoginTest****
+23:28:20.882 [main] INFO  testCase.TC004_Search - ****Started TC004_Search****
+23:28:21.126 [main] INFO  testCase.TC004_Search - clicked on My Account
+23:28:21.635 [main] INFO  testCase.TC004_Search - Login Page displayed
+23:28:23.776 [main] INFO  testCase.TC004_Search - Login Sucessfull
+23:28:23.837 [main] INFO  testCase.TC004_Search - Login Successful and My Account is displayed
+23:28:24.031 [main] INFO  testCase.TC004_Search - Entering product name...
+23:28:34.741 [main] INFO  testCase.TC004_Search - Products are available for the search criteria.
+23:28:34.741 [main] INFO  testCase.TC004_Search - ****Finished TC004_Search****
+23:28:50.164 [main] INFO  testCase.TC005_ForgotPassword - ****Started TC005_ForgotPassword****
+23:28:50.393 [main] INFO  testCase.TC005_ForgotPassword - clicked on My Account
+23:28:51.288 [main] INFO  testCase.TC005_ForgotPassword - clicked on login
+23:28:51.288 [main] INFO  testCase.TC005_ForgotPassword - Login Page displayed
+23:28:51.746 [main] INFO  testCase.TC005_ForgotPassword - ForgotPasswordPage is opened..
+23:28:51.760 [main] INFO  testCase.TC005_ForgotPassword - Forgotpassword page opened
+23:28:52.034 [main] INFO  testCase.TC005_ForgotPassword - Email entered
+23:28:52.174 [main] INFO  testCase.TC005_ForgotPassword - Clicked on continue button
+23:28:53.309 [main] INFO  testCase.TC005_ForgotPassword - Email not found...
+23:28:53.482 [main] INFO  testCase.TC005_ForgotPassword - ****Finished TC005_ForgotPassword****
+23:28:57.759 [main] INFO  testCase.TC006_ProductAvailability - ****Started TC006_ProductAvailability****
+23:28:58.612 [main] INFO  testCase.TC006_ProductAvailability - Login Page displayed
+23:29:00.779 [main] INFO  testCase.TC006_ProductAvailability - Login Sucessfull
+23:29:00.911 [main] INFO  testCase.TC006_ProductAvailability - Login Successful and My Account is displayed
+23:29:01.151 [main] INFO  testCase.TC006_ProductAvailability - Entering product name...
+23:29:01.929 [main] INFO  testCase.TC006_ProductAvailability - Added to cart
+23:29:02.721 [main] INFO  testCase.TC006_ProductAvailability - clicked on shopping cart
+23:29:02.721 [main] INFO  testCase.TC006_ProductAvailability - Shopping cart page opened
+23:29:02.815 [main] INFO  testCase.TC006_ProductAvailability - selected product is outofstock
+23:29:02.815 [main] INFO  testCase.TC006_ProductAvailability - ****Finished TC006_ProductAvailability****
+23:29:07.430 [main] INFO  testCase.TC007_Wishlist - ****Started TC007 Wishlist****
+23:29:08.518 [main] INFO  testCase.TC007_Wishlist - Login Page displayed
+23:29:11.110 [main] INFO  testCase.TC007_Wishlist - Login Sucessfull
+23:29:11.169 [main] INFO  testCase.TC007_Wishlist - Login Successful and My Account is displayed
+23:29:11.368 [main] INFO  testCase.TC007_Wishlist - Entered product name...
+23:29:12.143 [main] INFO  testCase.TC007_Wishlist - Wishlist Page displayed
+23:29:12.190 [main] INFO  testCase.TC007_Wishlist - Product added to wishlist..
+23:29:12.190 [main] INFO  testCase.TC007_Wishlist - ****Finished TC007_Wishlist****
+23:29:17.097 [main] INFO  testCase.TC008_Currency - ****Started TC008_Currency****
+23:29:17.360 [main] INFO  testCase.TC008_Currency - Clicking on currency..
+23:29:18.219 [main] INFO  testCase.TC008_Currency - Selected usdollar currency
+23:29:18.412 [main] INFO  testCase.TC008_Currency - clicked on My Account
+23:29:18.864 [main] INFO  testCase.TC008_Currency - Login Page displayed
+23:29:19.562 [main] INFO  testCase.TC008_Currency - Login Sucessfull
+23:29:21.182 [main] INFO  testCase.TC008_Currency - Login Successful and My Account is displayed
+23:29:21.377 [main] INFO  testCase.TC008_Currency - Entering product name...

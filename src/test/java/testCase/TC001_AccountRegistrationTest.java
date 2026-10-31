@@ -25,9 +25,7 @@ public class TC001_AccountRegistrationTest extends BaseClass{
 
 		
 		AccountRegistrationPage accreg=new AccountRegistrationPage(driver);
-		
-		logger.info("Providing Details to Register");
-
+		logger.info("Registration page opened..");
 		accreg.setFirstname(randomeString());
 		accreg.setlname(randomeString());
 		accreg.setEmail(randomeString()+ "@gmail.com");
@@ -37,15 +35,16 @@ public class TC001_AccountRegistrationTest extends BaseClass{
 		accreg.setconfpassword(Password);
 		accreg.checkpolicy();
 		accreg.clickcontinuebtn();
+		logger.info("Provided Details to Register..");
 		String conf=accreg.msgConfirmation();
-		
 		if (conf.equals("Your Account Has Been Created!"))
 		{
+			logger.info("Account created..");
 			Assert.assertTrue(true);
 		}
 		else
 		{
-			logger.error("Test Failed.....");
+			logger.error("Account creation failed");
 			Assert.assertTrue(false);
 		}
 		
@@ -54,7 +53,7 @@ public class TC001_AccountRegistrationTest extends BaseClass{
 		{
 			Assert.fail();
 		}
-		logger.info("Registration Success");
+		logger.info("****Finished TC001_AccountRegistrationTest****");
 	}
 	
 }

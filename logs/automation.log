@@ -1,0 +1,28 @@
+23:29:22.022 [main] INFO  testCase.TC008_Currency - Dollar currency applied..
+23:29:22.034 [main] INFO  testCase.TC008_Currency - ****Finished TC008_Currency****
+23:29:27.852 [main] INFO  testCase.TC009_AddingAddress - ****Started TC009_AddingAddress****
+23:29:28.073 [main] INFO  testCase.TC009_AddingAddress - clicked on My Account
+23:29:28.572 [main] INFO  testCase.TC009_AddingAddress - clicked on login
+23:29:28.572 [main] INFO  testCase.TC009_AddingAddress - login page opened
+23:29:29.502 [main] INFO  testCase.TC009_AddingAddress - Login Sucessfull
+23:29:29.502 [main] INFO  testCase.TC009_AddingAddress - Dashboard opened
+23:29:31.732 [main] INFO  testCase.TC009_AddingAddress - Login Successful and My Account is displayed
+23:29:32.382 [main] INFO  testCase.TC009_AddingAddress - clicked on Addressbook..
+23:29:32.427 [main] INFO  testCase.TC009_AddingAddress - Saved data successfully
+23:29:42.935 [main] INFO  testCase.TC009_AddingAddress - Address added..
+23:29:43.218 [main] INFO  testCase.TC009_AddingAddress - Address saved successfully
+23:29:43.218 [main] INFO  testCase.TC009_AddingAddress - ****Finished TC009_AddingAddress****
+23:29:51.832 [main] INFO  testCase.TC010_AddingAffiliateacc - *****Starting TC001_AccountRegistrationTest*****
+23:29:52.051 [main] INFO  testCase.TC010_AddingAffiliateacc - clicked on My Account
+23:29:52.814 [main] INFO  testCase.TC010_AddingAffiliateacc - clicked on Registration
+23:29:52.816 [main] INFO  testCase.TC010_AddingAffiliateacc - Registration page opened..
+23:29:56.139 [main] INFO  testCase.TC010_AddingAffiliateacc - Provided Details to Register..
+23:29:56.198 [main] INFO  testCase.TC010_AddingAffiliateacc - Account created succefully
+23:29:56.198 [main] INFO  testCase.TC010_AddingAffiliateacc - Dashboard opened
+23:29:56.978 [main] INFO  testCase.TC010_AddingAffiliateacc - clicked on My Account
+23:29:57.872 [main] INFO  testCase.TC010_AddingAffiliateacc - clicked on login
+23:29:57.872 [main] INFO  testCase.TC010_AddingAffiliateacc - login Page opened
+23:30:03.752 [main] INFO  testCase.TC010_AddingAffiliateacc - Login Successfull
+23:30:04.988 [main] INFO  testCase.TC010_AddingAffiliateacc - clicked on affiliate account...
+23:30:06.903 [main] INFO  testCase.TC010_AddingAffiliateacc - Affiliate success message status: true
+23:30:06.903 [main] INFO  testCase.TC010_AddingAffiliateacc - Affiliate account added successfully

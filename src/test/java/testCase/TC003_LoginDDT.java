@@ -16,20 +16,23 @@ public class TC003_LoginDDT extends BaseClass{
 	{
 		try
 		{
-		logger.info("*****Starting TC001_AccountRegistrationTest*****");
+		logger.info("*****Starting TC003_LoginDDT*****");
+		
 		HomePage hp=new HomePage(driver);
 		hp.clickMyAcc();
 		logger.info("clicked on My account");
 		hp.clickLogin();
 		logger.info("clicked on login button");
 		
-		LoginPage lp=new LoginPage(driver);
-		
+		LoginPage lp=new LoginPage(driver);	
+		logger.info("login Page opened");
 		lp.setEmail(Email);
 		lp.setpassword(pwd);
 		lp.clickloginbtn();
-		
+		logger.info("login Success");
+
 		DashboardPage dp=new DashboardPage(driver);
+		logger.info("Dashboard page opened");
         boolean targetpage = dp.ismyaccountDisplayed();
         
         if(exprslt.equalsIgnoreCase("Valid"))
@@ -62,7 +65,7 @@ public class TC003_LoginDDT extends BaseClass{
         {
         	Assert.fail();
         }
-        	
+		logger.info("*****Finished TC003_LoginDDT*****");
 	}
 	
 }

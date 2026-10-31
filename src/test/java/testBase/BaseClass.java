@@ -127,6 +127,12 @@ public class BaseClass {
 			return generatedNumber;
 		}
 		
+		public String randomSixDigitNumber()
+		{
+		    String generatedNumber = RandomStringUtils.randomNumeric(6);
+		    return generatedNumber;
+		}
+		
 		public String randomeAlphaNumeric()
 		{
 			String generatedString=RandomStringUtils.randomAlphabetic(5);

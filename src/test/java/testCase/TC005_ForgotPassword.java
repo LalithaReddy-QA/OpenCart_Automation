@@ -15,20 +15,29 @@ public class TC005_ForgotPassword extends BaseClass{
 	{
 		try
 		{
-		logger.info("****Started TC002_LoginTest****");
+		logger.info("****Started TC005_ForgotPassword****");
 		
 		HomePage hp=new HomePage(driver);
 		hp.clickMyAcc();
+		logger.info("clicked on My Account");
 		hp.clickLogin();
-		logger.info("Login Page displayed");
+		logger.info("clicked on login");
 		
 		LoginPage lp=new LoginPage(driver);
-		lp.clickforgotpassword();
+		logger.info("Login Page displayed");
 		
+		lp.clickforgotpassword();
 		logger.info("ForgotPasswordPage is opened..");
+		
 		ForgotPasswordPage fp=new ForgotPasswordPage(driver);
+		logger.info("Forgotpassword page opened");
+		
 		fp.setregisteredemail(randomeString()+ "@gmail.com");
+		logger.info("Email entered");
+
 		fp.clickcontinuebtn();
+		logger.info("Clicked on continue button");
+
 		boolean emailnotfound=fp.isemailnotfound();
 		if(emailnotfound)
 		{
@@ -44,5 +53,8 @@ public class TC005_ForgotPassword extends BaseClass{
 		{
 			Assert.fail(e.getMessage());
 		}
+		
+		logger.info("****Finished TC005_ForgotPassword****");
+
 	}
 }

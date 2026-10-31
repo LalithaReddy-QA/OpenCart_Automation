@@ -19,20 +19,22 @@ public class TC002_LoginTest extends BaseClass {
 			
 			HomePage hp=new HomePage(driver);
 			hp.clickMyAcc();
+			logger.info("clicked on My Account");
 			hp.clickLogin();
+			logger.info("clicked on login");
 			
 			LoginPage lp=new LoginPage(driver);
-			
+			logger.info("login page opened");
 			lp.setEmail(p.getProperty("email"));
 			lp.setpassword(p.getProperty("password"));
 			lp.clickloginbtn();
 			logger.info("Login Sucessfull");
 			
 			DashboardPage dp=new DashboardPage(driver);
+			logger.info("Dashboard opened");
 	        boolean targetpage = dp.ismyaccountDisplayed();
 	        Assert.assertTrue(targetpage, "My Account heading is not displayed");
-	
-	        logger.info("Login Successful and My Account is displayed");
+		    logger.info("Login Successful and My Account is displayed");
 		}
 	    catch(Exception e)
 	    {

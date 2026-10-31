@@ -15,15 +15,14 @@ public class TC004_Search extends BaseClass {
 	public void Verify_Search() {
 	try
 	{
-		logger.info("****Started TC002_LoginTest****");
-		
+		logger.info("****Started TC004_Search****");		
 		HomePage hp=new HomePage(driver);
 		hp.clickMyAcc();
+		logger.info("clicked on My Account");
 		hp.clickLogin();
-		logger.info("Login Page displayed");
 		
+		logger.info("Login Page displayed");		
 		LoginPage lp=new LoginPage(driver);
-		
 		lp.setEmail(p.getProperty("email"));
 		lp.setpassword(p.getProperty("password"));
 		lp.clickloginbtn();
@@ -34,9 +33,8 @@ public class TC004_Search extends BaseClass {
         Assert.assertTrue(targetpage, "My Account heading is not displayed");
         logger.info("Login Successful and My Account is displayed");
         
-        SearchPage sp=new SearchPage(driver);
-        
-        sp.Searchtext("text");
+        SearchPage sp=new SearchPage(driver);       
+        sp.Searchtext("iphone");
         logger.info("Entering product name...");
         sp.searchbtn();
         boolean noProductMessage = sp.isNoProductMessageDisplayed();       
@@ -54,5 +52,6 @@ public class TC004_Search extends BaseClass {
 	{
 		Assert.fail();
 	}
+	logger.info("****Finished TC004_Search****");
 }
 }

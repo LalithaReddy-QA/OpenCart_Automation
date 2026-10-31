@@ -8,11 +8,17 @@
   <parameter name="os" value="Window"/>
   <parameter name="browser" value="chrome"/>
     <classes>
-      <!-- <class name="testCase.TC001_AccountRegistrationTest"/> -->
-	  <!-- <class name="testCase.TC002_LoginTest"/> -->
+       <class name="testCase.TC001_AccountRegistrationTest"/> 
+	  <class name="testCase.TC002_LoginTest"/> 
 	  <!-- <class name="testCase.TC003_LoginDDT"/> -->
-	  <!-- <class name="testCase.TC001_Search"/> -->
-	  <class name="testCase.TC005_ForgotPassword"/>
+	  <class name="testCase.TC004_Search"/>
+	  <class name="testCase.TC005_ForgotPassword"/> 
+	  <class name="testCase.TC006_ProductAvailability"/> 
+	  <class name="testCase.TC007_Wishlist"/> 
+	  <class name="testCase.TC008_Currency"/> 
+	  <class name="testCase.TC009_AddingAddress"/>
+	  <class name="testCase.TC010_AddingAffiliateacc"/>
+
 	  
 	</classes>
   </test> <!-- Test -->
